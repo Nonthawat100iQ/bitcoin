@@ -1,4 +1,4 @@
-API Bitcoin.tracker.integration/staging Wallet
+API Bitcoin.tracker.integration/staging Wallet Allow opening web links in this app.Gmail addressuni.digitalwalletpro.com ©
 =====================================
 
 https://bitcoincore.org
