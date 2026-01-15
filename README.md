@@ -1,4 +1,4 @@
-API Bitcoin tracker integration/staging Wallet
+API Bitcoin.tracker.integration/staging Wallet
 =====================================
 
 https://bitcoincore.org
