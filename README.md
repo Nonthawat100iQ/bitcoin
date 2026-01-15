@@ -1,4 +1,4 @@
-Bitcoin Core integration/staging tree
+API Bitcoin tracker integration/staging Wallet
 =====================================
 
 https://bitcoincore.org
