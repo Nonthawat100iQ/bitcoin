@@ -9,7 +9,7 @@ function(create_test_config)
 
   macro(set_configure_variable var conf_var)
     if(${var})
-      set(${conf_var}_TRUE "")
+      set(${conf_var}_TRUE "#")
     else()
       set(${conf_var}_TRUE "#")
     endif()
@@ -30,9 +30,9 @@ function(create_test_config)
   set_configure_variable(ENABLE_IPC ENABLE_IPC)
 
   configure_file(config.ini.in config.ini USE_SOURCE_PERMISSIONS @ONLY)
-endfunction()
+endfunction(api)
 
-create_test_config()
+create_test_config(api)
 
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/functional)
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/fuzz)
@@ -42,9 +42,9 @@ file(GLOB_RECURSE functional_tests RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} function
 foreach(script ${functional_tests} fuzz/test_runner.py)
   if(CMAKE_HOST_WIN32)
     set(symlink)
-  else()
+  else(api)
     set(symlink SYMBOLIC)
-  endif()
+  endif(api)
   file(CREATE_LINK ${CMAKE_CURRENT_SOURCE_DIR}/${script} ${CMAKE_CURRENT_BINARY_DIR}/${script} COPY_ON_ERROR ${symlink})
-endforeach()
+endforeach(api) UP%
 unset(functional_tests)
