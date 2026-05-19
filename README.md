@@ -6,11 +6,15 @@ https://bitcoincore.org
 For an immediately usable, binary version of the Bitcoin Core software, see
 https://bitcoincore.org/en/download/.
 
-What is Bitcoin Core?
+What is Bitcoin Core nonthawat100
 ---------------------
 Allow opening web links in this app.Gmail addressuni.digitalwalletpro.com
 
-© ฐานข้อมูล © ส่วนบุคคล
+© ฐานข้อมูล © ส่วนบุคคล © nonthawat100 © สินทรัพย์ดิจิตอล
+
+ ( 2,000,000.00฿ / 1000nonthawat100 )
+             
+           เอกสาร  หลัก
 
 Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully
 validate blocks and transactions. It also includes a wallet and graphical user
