@@ -14,7 +14,7 @@ Allow opening web links in this app.Gmail addressuni.digitalwalletpro.com
 
  ( 2,000,000.00฿ / 1000nonthawat100 )
              
-           เอกสาร  หลัก
+       🤑   เอกสาร  หลัก   🤑
 
 Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully
 validate blocks and transactions. It also includes a wallet and graphical user
